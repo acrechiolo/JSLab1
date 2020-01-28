@@ -35,3 +35,18 @@ while (true) {
     break;
   }
 }
+
+//declare the variables
+let wage = 10;
+let hours = 60;
+//write the code to log the total paycheck based on the hours worked and the wage ($ per hour).
+//If the hours worked is over 40, give 150% pay for the extra hours worked
+if (hours <= 40) {
+  console.log(wage * 40);
+} else {
+  let overTime = hours - 40;
+  let overTimePay = overTime * wage * 1.5 + wage * 40;
+  console.log(
+    `If you make ${wage} dollars an hour and work ${hours} hours a week, you will receive a paycheck of $${overTimePay}.00`
+  );
+}
