@@ -8,7 +8,7 @@ let lifeEvents = [
   "I have a cat with Vitiligo",
   "I love black olives"
 ];
-if (true) {
+if (detroitGC) {
   console.log(
     `My name is ${name} and I am a Student at Grand Circus in Detroit, Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`
   );
